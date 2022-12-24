@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +7,7 @@
 body {
   margin: 0;
   background-color: #23252C;
+  font-family: Inter;
 }
 
 .container {
@@ -30,6 +33,7 @@ body {
   background-color: #1A1B21;
   width: 317px;
   height: 299px;
+  align-items: center;
   
 }
 
@@ -74,26 +78,6 @@ body {
   color: #F5F5F5;
 }
 
-.personal-heading, .personal-text {
-  margin: 0;
-  padding: 0;
-}
-
-
-.personal-heading {
-  text-align: left;
-  font-size: 18px;
-  font-weight: bold;
-  color: #F5F5F5;
-  text-indent: 46px;
-}
-
-.personal-text {
-  font-size: 10px;
-  color: #DCDCDC;
-  max-width: 224px;
-  align-self: center;
-}
 
 footer {
   width: 317px;
@@ -115,4 +99,4 @@ footer > button {
   margin-left: 12px;
   margin-right: 12px;
   border-radius: 5px;
-}
+} */

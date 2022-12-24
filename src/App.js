@@ -1,28 +1,28 @@
-import "./App.css"
 
+import Main from "./components/Main";
 import ProfileImage from "./components/ProfileImage";
-import Profile from "./components/Profile";
-import About from "./components/About";
-import Interests from "./components/Interests";
-import Footer from "./Footer";
-
+import Footer from "./components/Footer"
 function App() {
   return (
-    <div className="container">    
-        <ProfileImage />
-        <div className="profile-card">
-          <Profile />
-          <div className="container-buttons"> 
-            <button></button>
-            <button></button>
-          </div>
-
-          <About />
-          <Interests />
-        </div>
-        <Footer />
+    // <div className="container">    
+    //     <ProfileImage />
+    //     <div className="profile-card">
+    //       <Profile />
+    //       <div className="container-buttons"> 
+    //         <button></button>
+    //         <button></button>
+    //       </div>
+    //       <AboutInterests />
+    //     </div>
+    //     <Footer />
+    // </div>
+    <div className="app-container">
+      <ProfileImage />
+      <Main />
+      <Footer />
     </div>
 
+  
   );
 }
 
