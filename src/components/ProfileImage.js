@@ -1,5 +1,7 @@
-import logo from '../logo.svg';
+import Jsondata from "../data/profile.json"
 
 export default function ProfileImage() {
-    return <img className="profile-logo" src={logo} alt="profileimage" />
+    return Jsondata.Profile.map((info) => {
+        return <img className='profile-logo' src={info.image} alt="Profile Image"/>
+    })
 }

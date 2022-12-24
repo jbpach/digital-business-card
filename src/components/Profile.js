@@ -1,11 +1,15 @@
 import "../style.css"
+import JsonData from "../data/profile.json"
 
 export default function Profile() {
-    return(
-        <>
-            <h1 className="profile-name">Laura Smith</h1>
-            <h3 className="profile-title">Frontend Developer</h3>
-            <h4 className="profile-website">laurasmith.website</h4>
-        </>
-    );
+
+    return JsonData.Profile.map((info) => {
+        return (
+            <>
+                <h1 className="profile-name">{info.firstname} {info.secondname}</h1>
+                <h3 className="profile-title">{info.title}</h3>
+                <h4 className="profile-website">{info.email}</h4>
+            </>
+        )
+    })
 }
