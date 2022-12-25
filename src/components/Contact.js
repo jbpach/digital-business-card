@@ -8,7 +8,7 @@ export default function Contact() {
         return (
             <div className="contact-container">   
                 <a href={"mailto:" + info.email}><button className="email-btn"><FaEnvelope /> Email</button></a>
-                <a href={info.accounts.map((accI) => {return (accI.linkedin) })} target="_blank"><button className="linkedin-btn"><FaLinkedin /> Linkedin</button></a>
+                <a href={info.accounts.map((accI) => {return (accI.linkedin) })} target="_blank"  rel="noreferrer"><button className="linkedin-btn"><FaLinkedin /> Linkedin</button></a>
             </div>
         )
     })
